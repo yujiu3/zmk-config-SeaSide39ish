@@ -17,7 +17,7 @@
 };
 
 /* AML解除対象外のキー */ 
-/*
+
 &zip_temp_layer {
     excluded-positions = <
         16 // 左クリック
@@ -28,7 +28,7 @@
         28 // 右
     >;
 };
-*/
+
 
 /* キー入力後AML発動を抑制する時間 */ 
 &zip_temp_layer {
