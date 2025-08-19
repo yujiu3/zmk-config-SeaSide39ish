@@ -45,7 +45,7 @@
         device = <&trackball>;
 
 /* input-processors設定 */ 
-        input-processors = <&zip_temp_layer 4 650>;
+        input-processors = <&zip_temp_layer 4 3000>;
     };
 };
 
