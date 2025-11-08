@@ -42,6 +42,12 @@
         compatible = "zmk,input-listener";
         device = <&trackball>;
 
+/* PAW3222用設定（カーソル移動方向反転） */ 
+        input-processors = <
+            &zip_xy_transform (INPUT_TRANSFORM_X_INVERT | INPUT_TRANSFORM_Y_INVERT)
+        >;
+
+
 /* スクロールレイヤー設定 */
         scroller {
             layers = <5>;
