@@ -106,7 +106,7 @@
 &kp LCTRL         &mt LEFT_WIN TAB  &kp LEFT_ALT  &lt 5 LANG2     &lt 4 SPACE  &lt 2 LANG1      &lt 5 BACKSPACE  &lt 1 ENTER                                                            &mt JP_TILDE ESCAPE
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            // sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         SYMBOL {
@@ -135,7 +135,7 @@
 &trans          &trans                  &trans          &trans                   &trans   &trans      &trans  &kp BACKSPACE                                                                                &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
+            // sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
         MOUSE {
